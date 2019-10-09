@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Charm&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: "Yu Mincho Medium", "游明朝 Medium", YuMincho, "游明朝体";
+    color: $blackColor;
+}
+ul {
+    list-style: none;
+}
+
+//========================
+//FONT SIZE
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size:1.6rem;/* 16px*/
+    line-height: 2;
+}
+h1 {
+    font-size: 36px;/* IE8以下とAndroid4.3以下用フォールバック */
+    font-size: calc(2.3rem + ((1vw - 0.64rem) * 2.1429));/* 24px~36pxで可変*/
+    line-height: 1.3;
+}
+h2 {
+    font-size: 24px;/* IE8以下とAndroid4.3以下用フォールバック */
+    font-size: calc(2rem + ((1vw - 0.64rem) * 0.7143));/* 20px~24pxで可変*/
+    line-height: 1.3;
+}
+p {
+    font-size: 16px;
+    font-size: calc(1.6rem + ((1vw - 0.64rem) * 0.3));
+    line-height: 5vh;
+}
+a {
+    font-size: 16px;
+    font-size: calc(1.6rem + ((1vw - 0.64rem) * 0.3));/* 20px~24pxで可変*/
+    line-height: 1.3;
+}
