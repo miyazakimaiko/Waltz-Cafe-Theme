@@ -15,6 +15,7 @@
         h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
     })(document);
     </script>
+    <script src="https://kit.fontawesome.com/764611972e.js"></script>
     <link rel="stylesheet" href="sass/main.css">
 </head>
 <body>
@@ -52,14 +53,14 @@
                     </li>
                     <li>
                         <a href="#">
-                            <p>Goods</p>
-                            <span>グッズ</span>
+                            <p>News</p>
+                            <span>ニュース</span>
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <p>News</p>
-                            <span>ニュース</span>
+                            <p>Access</p>
+                            <span>アクセス</span>
                         </a>
                     </li>
                 </ul>
@@ -74,6 +75,203 @@
             </div>
         </div>
     </header>
+    <main>
+
+        <!-- BACKGROUND-WALL -->
+        <div class="bcg-wall">
+            <!-- HERO SECTION -->
+            <section class="hero-section">
+                <div class="hero-img-wrapper">
+                    <img src="assets/img/DSC_0300.jpeg" alt="waltz coffee roastery">
+                    <div class="hero-description">
+                        <h1>いつでも本当においしい珈琲とハーブを、ジャズやクラシックの名曲が流れる空間で—。
+                            <br>『さりげなく、本物を』この想いからワルツは始まりました。</h1>
+                        <a href="#">ワルツについて、もっと知る</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- BANNER SECTION -->
+            <section class="banner-section">
+                <ul class="banner-lists">
+                    <li class="banner-list">
+                        <img src="assets/img/DSC_0347.JPG" alt="美味しいコーヒーの淹れ方">
+                        <a href="#" class="banner-description">
+                            <h3>美味しいコーヒーの淹れ方ガイド</h3>
+                            <p>記事を読む</p>
+                        </a>
+                    </li>
+                    <li class="banner-list">
+                        <img src="assets/img/DSC_0330.JPG" alt="浅煎り豆特集">
+                        <a href="#" class="banner-description">
+                            <h3>浅煎り豆特集</h3>
+                            <p>記事を読む</p>
+                        </a>
+                    </li>
+                    <li class="banner-list">
+                        <img src="assets/img/DSC_0341.JPG" alt="ブログ・コラム">
+                        <a href="#" class="banner-description">
+                            <h3>ブログ・コラム</h3>
+                            <p>一覧をみる</p>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+
+        <!-- FLEXBOX -->
+        <div class="flex-row">
+            <!-- SIDE BAR -->
+            <aside class="sidebar">
+
+                <div class="sidebar__contents search-bar">
+                    <form action="">
+                        <input type="text" placeholder="キーワードで検索">
+                        <button type="submit">検索</button>
+                    </form>
+                </div>
+
+                <div class="sidebar__contents roast-level">
+                    <div class="sidebar-title">
+                        <h3>焙煎度合いで探す</h3>
+                    </div>
+                    <ul class="roast-level-links sidebar__contents__inner">
+                        <li>
+                            <a href="#"><i class="far fa-check-circle"></i> 浅煎り</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="far fa-check-circle"></i> 中煎り</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="far fa-check-circle"></i> 深煎り</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="sidebar__contents opening-hours">
+                    <div class="sidebar-title">
+                        <h3>営業時間</h3>
+                    </div>
+                    <div class="opening-hours-contents sidebar__contents__inner">
+                        <p>月曜・火曜 休業</p>
+                        <p>水曜〜日曜　9時〜16時</p>
+                    </div>
+                </div>
+
+                <div class="sidebar__contents sns-feed">
+                    <div class="sidebar-title">
+                        <h3>Facebook</h3>
+                        <div class="facebook-feed">
+                            Facebook feed...
+                        </div>
+                    </div>
+                </div>
+
+                <ul class="sidebar__contents banners">
+                    <li>
+                        <a href="#">
+                            インスタバナー
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">                           
+                            ツイッターバナーなど
+                        </a>
+                    </li>
+                </ul>
+
+            </aside>
+
+            <!-- CONTENTS SECTION -->
+            <section class="contents-section">
+
+                <div class="contents-section__inner">
+                    <div class="contents-title">
+                        <h1>今月のシングル・オリジンコーヒー</h1>
+                    </div>
+                    <div class="contents-main-area">
+                        <div class="product">
+                            <a href="#">
+                                <img src="assets/img/beans.jpg" alt="ブルーマウンテン">
+                            </a>
+                            <a href="#" class="product__text">ブルーマウンテン No.1</a>
+                        </div>
+                        <div class="product">
+                            <a href="#">
+                                <img src="assets/img/beans.jpg" alt="パナマゲイシャ">
+                            </a>
+                            <a href="#" class="product__text">パナマゲイシャ エメラルダ</a>
+                        </div>
+                        <div class="product">
+                            <a href="#">
+                                <img src="assets/img/beans.jpg" alt="クリスタルマウンテン">
+                            </a>
+                            <a href="#" class="product__text">【大人気！】キューバ クリスタルマウンテン</a>
+                        </div>
+                        <div class="product">
+                            <a href="#">
+                                <img src="assets/img/beans.jpg" alt="ブルーマウンテン">
+                            </a>
+                            <a href="#" class="product__text">ブルーマウンテン No.1</a>
+                        </div>
+                        <div class="product">
+                            <a href="#">
+                                <img src="assets/img/beans.jpg" alt="パナマゲイシャ">
+                            </a>
+                            <a href="#" class="product__text">パナマゲイシャ エメラルダ</a>
+                        </div>
+                        <div class="product">
+                            <a href="#">
+                                <img src="assets/img/beans.jpg" alt="クリスタルマウンテン">
+                            </a>
+                            <a href="#" class="product__text">キューバ クリスタルマウンテン</a>
+                        </div>
+                    </div>
+                    <div class="read-more-link">
+                        <a href="#" class="read-more-link">一覧をみる</a>
+                    </div>
+                </div><!-- .contents-section__inner -->
+
+                <div class="contents-section__inner">
+                    <div class="contents-title">
+                        <h1>ワルツ オリジナル・ブレンド</h1>
+                    </div>
+                    <div class="contents-main-area">
+                        <div class="product">
+                            <a href="#">
+                                <img src="assets/img/beans.jpg" alt="ワルツブレンド">
+                            </a>
+                            <a href="#" class="product__text">ワルツブレンド</a>
+                        </div>
+                        <div class="product">
+                            <a href="#">
+                                <img src="assets/img/beans.jpg" alt="トロピカルブレンド">
+                            </a>
+                            <a href="#" class="product__text">トロピカルブレンド</a>
+                        </div>
+                        <div class="product">
+                            <a href="#">
+                                <img src="assets/img/beans.jpg" alt="フレンチブレンド">
+                            </a>
+                            <a href="#" class="product__text">フレンチブレンド</a>
+                        </div>
+                        <div class="product">
+                            <a href="#">
+                                <img src="assets/img/beans.jpg" alt="水出し用ブレンド">
+                            </a>
+                            <a href="#" class="product__text">水出し用ブレンド</a>
+                        </div>
+                    </div>
+                </div><!-- .contents-section__inner -->
+
+            </section>
+        </div>
+
+        <!-- FOOTER -->
+        <footer>
+            
+        </footer>
+    </main>
     <script src="main.js"></script>
 </body>
 </html>
