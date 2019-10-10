@@ -1,3 +1,16 @@
+/*VARIABLES*/
 @import "variables-colors";
+
+/*MIXINS*/
+@import "mixin-fonts";
+@import "mixin-buttons";
+
+
+/*MAIN CSS*/
 @import "general";
 @import "header";
+@import "index-hero";
+@import "index-banner";
+
+@import "general-sidebar";
+@import "general-contents";
