@@ -1,0 +1,46 @@
+.banner-lists {
+    width: calc(100vw - 110px);
+    max-width: 1170px;
+    margin: 30px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: 500px) {
+        flex-direction: column;
+    }
+}
+
+.banner-list {
+    position: relative;
+    max-height: 200px;
+    img {
+        width: calc(100vw / 3 - 45px);
+        max-width: 380.33px;
+        height: 200px;
+        object-fit: cover;
+        @media (max-width: 500px) {
+            width: calc(100vw - 40px);
+            height: 100px;
+            margin: 0 auto 5px;
+            display: block;
+        }
+    }
+    .banner-description {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 15px;
+        left: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-decoration: none;
+        h3 {
+            color: #fff;
+            text-shadow: 3px 3px 3px #292929;
+            margin-bottom: 0;
+        }
+        p {
+            @include pinkButtonSm();
+        }
+    }
+}

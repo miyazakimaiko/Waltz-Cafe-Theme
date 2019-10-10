@@ -1,0 +1,17 @@
+@mixin pinkButtonLg() {
+    padding: 2rem 3rem;
+    margin-left: auto;
+    color: #FFF;
+    text-decoration: none;
+    background: $pinkTransparent;
+    @include tenMincho();
+}
+
+@mixin pinkButtonSm() {
+    padding: 1rem 2rem;
+    margin-right: auto;
+    color: #FFF;
+    text-decoration: none;
+    background: $pinkTransparent;
+    @include tenMincho();
+}

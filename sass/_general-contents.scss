@@ -1,0 +1,38 @@
+.contents-section {
+    width: 75%;
+    &__inner {
+        &:first-child > .contents-title > h1 {
+            margin-top: 0;
+        }
+        .contents-title {
+            margin-left: 20px;
+        }
+        .contents-main-area {
+            display: flex;
+            flex-wrap: wrap;
+            .product {
+                width: calc(100% / 3);
+                max-width: 291.48px;
+                padding-left: 15px;
+                margin-bottom: 20px;
+                img {
+                    width: 100%;
+                    height: 200px;
+                    object-fit: cover;
+                }
+                &__text {
+                    text-decoration: none;
+                    color: inherit;
+                    @include tenMincho();
+                }
+            }
+        }
+        .read-more-link {
+            width: 100%;
+            text-align: right;
+            a {
+                @include pinkButtonSm();
+            }
+        }
+    }
+}
