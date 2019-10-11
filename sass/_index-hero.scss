@@ -18,7 +18,7 @@
         object-fit: cover;
         display: block;
         margin: 0 auto;
-        @media (max-width: 500px) {
+        @media (max-width: 560px) {
             height: 210px;
         }
     }
@@ -35,7 +35,7 @@
             left: 80px;
             right: 80px;
         }
-        @media (max-width: 500px) {
+        @media (max-width: 560px) {
             top: 0px;
             left: 25px;
             right: 25px;
@@ -44,7 +44,7 @@
             @include tenMincho();
             @include fontSizeH2();
             @include fontWhite();
-            @media (max-width: 500px) {
+            @media (max-width: 560px) {
             @include fontSizeP();  
             line-height: 1.8;     
             }
@@ -52,7 +52,7 @@
         a {
             @include pinkButtonLg();
             @include fontSizeP(); 
-            @media (max-width: 500px) {
+            @media (max-width: 560px) {
                 padding: .5rem 1rem;      
             }
         }

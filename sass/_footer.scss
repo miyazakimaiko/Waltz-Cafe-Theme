@@ -1,0 +1,45 @@
+footer {
+    background-image: url(../assets/img/p0026.png);
+    .copy-right-section {
+        text-align: center;
+    }
+}
+.footer {
+    width: calc(100vw - 110px);
+    max-width: 1170px;
+    margin: 30px auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+    @media (max-width: 560px) {
+        flex-direction: column;
+        width: 100%;
+    }
+    &__contents {
+        width: calc(100vw / 4);
+        padding: 10px 20px;
+        @media (max-width: 560px) {
+            width: 100%;
+            padding: 0px 20px;
+        }
+        &__title {
+            h4 {
+                border-bottom: 1px solid $pinkTransparent;
+                color: $redColor;
+                @include fontSizeP();
+                @include tenMincho();
+            }
+        }
+        &__inner {
+            a {
+                color: inherit;
+            }
+        }
+        .facebook-feed {
+            background: lightblue;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

@@ -19,10 +19,12 @@ ul {
 
 html{
     font-size: 62.5%;
+    height: 100%;
 }
 body{
     font-size:1.6rem;/* 16px*/
     line-height: 2;
+    height: 100%;
 }
 h1 {
     @include fontSizeH1();
@@ -38,4 +40,22 @@ p {
 }
 a {
     @include fontSizeP();
+}
+
+.border-red {
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 4px;
+        background: $pinkBorderColor;
+        z-index: -1;
+    }
+}
+
+.border-regular {
+    text-decoration: underline;
 }
